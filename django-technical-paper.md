@@ -124,6 +124,10 @@ Suppose an online store has a page where a logged in user can click â€œBuy Nowâ€
 
 [Default App in Django](https://docs.djangoproject.com/en/2.2/ref/contrib/)
 
+[Django Middleware Docs](https://docs.djangoproject.com/en/2.2/ref/middleware/#x-frame-options-middleware)
+
+[Very Academy Tutorial on how to make middleware](https://www.youtube.com/watch?v=EpZOVmEw9Qg&t=395s)
+
 ---
 
 Created by Mirza AasimBaig
