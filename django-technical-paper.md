@@ -90,6 +90,7 @@ Example- `http://bobssite.org/search?q=<script>alert('xss');</script>`
 - `django.middleware.clickjacking.XFrameOptionsMiddleware` - The clickjacking middleware and decorators provide easy-to-use protection against clickjacking. This type of attack occurs when a malicious site tricks a user into clicking on a concealed element of another site which they have loaded in a hidden frame or iframe.
 
   <a href="https://ibb.co/qJmk3LJ"><img src="https://i.ibb.co/sWsydpW/django3.png" alt="django3" border="0"></a>
+
   _Csrf Directly sends response to webserver rather than to View_
 
 Example of CSRF -
