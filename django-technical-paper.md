@@ -87,7 +87,10 @@ Example- `http://bobssite.org/search?q=<script>alert('xss');</script>`
 
 - `django.contrib.messages.middleware.MessageMiddleware` - Quite commonly in web applications, you need to display a one-time notification message (also known as “flash message”) to the user after processing a form or some other types of user input. For this, Django provides full support for cookie- and session-based messaging, for both anonymous and authenticated users. The messages framework allows you to temporarily store messages in one request and retrieve them for display in a subsequent request (usually the next one).
 
-- `django.middleware.clickjacking.XFrameOptionsMiddleware` - Quite commonly in web applications, you need to display a one-time notification message (also known as “flash message”) to the user after processing a form or some other types of user input. For this, Django provides full support for cookie- and session-based messaging, for both anonymous and authenticated users. The messages framework allows you to temporarily store messages in one request and retrieve them for display in a subsequent request (usually the next one).
+- `django.middleware.clickjacking.XFrameOptionsMiddleware` - The clickjacking middleware and decorators provide easy-to-use protection against clickjacking. This type of attack occurs when a malicious site tricks a user into clicking on a concealed element of another site which they have loaded in a hidden frame or iframe.
+
+  <a href="https://ibb.co/qJmk3LJ"><img src="https://i.ibb.co/sWsydpW/django3.png" alt="django3" border="0"></a>
+  _Csrf Directly sends response to webserver rather than to View_
 
 Example of CSRF -
 
